@@ -27,7 +27,7 @@ require([
     // When the DOM is ready and resources are loaded...
  
     // Define the data
-    var chartData = [{x: 1, y: 102},{x: 2, y: 104},{x: 3, y: 106},{x: 4, y: 104},{x: 5, y: 106},{x: 6, y: 108}]
+    var chartData = [{x: 1, y: 102},{x: 2, y: 100},{x: 3, y: 106},{x: 4, y: 104},{x: 5, y: 106},{x: 6, y: 108}]
  
     // Create the chart within it's "holding" node
     var chart = new Chart("chartNode");
@@ -43,7 +43,7 @@ require([
  
     // Add axes
     chart.addAxis("x", {
-    labels: [{value: 1, text: "01/10/2012"}, {value: 2, text: "Feb"},
+    labels: [{value: 1, text: "01/10/2012"}, {value: 2, text: "02/10/2012"},
         {value: 3, text: "Mar"}, {value: 4, text: "Apr"},
         {value: 5, text: "May"}, {value: 6, text: "Jun"},
         {value: 7, text: "Jul"}, {value: 8, text: "Aug"},
